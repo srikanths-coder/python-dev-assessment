@@ -13,6 +13,6 @@ class Book:
     def get_summary(self):
             return ("title, author, publication_year")
 
-book1 = Book("1984", "traveller", "123456", 1950)
+book1 = Book("1958","abc",1980)
 
 print(book1.get_summary())
